@@ -6,5 +6,14 @@ const nextConfig = {
     ]
   }
 }
+const withPWA = require('next-pwa')({
+  dest: 'public',
+  register: true,
+  skipWaiting: false,
+})
 
+module.exports = withPWA({
+  reactStrictMode: false,
+  swcMinify: false,
+})
 module.exports = nextConfig
