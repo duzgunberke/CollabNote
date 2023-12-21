@@ -14,7 +14,6 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'CollabNote',
   description: 'The connected workspace where better, faster work happens.',
-  manifest: "/manifest.json",
   icons: {
     icon: [
       {
